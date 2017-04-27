@@ -13,4 +13,11 @@ public class Controller {
     public String index() {
         return "!";
     }
+    @RequestMapping("/login")
+    public String login() {
+        return "!";
+    }
+
+
+
 }
